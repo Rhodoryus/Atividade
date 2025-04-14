@@ -9,7 +9,7 @@ services:
       MYSQL_ROOT_PASSWORD: root_password
       MYSQL_DATABASE: joomla_db
       MYSQL_USER: joomla_user
-      MYSQL_PASSWORD: joomla_pass
+      MYSQL_PASSWORD: joomla_pass123
     volumes:
       - db_data:/var/lib/mysql
     networks:
